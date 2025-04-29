@@ -1,0 +1,79 @@
+/* Add this to AddUsers.css file and import it in AddUsers.jsx */
+
+.adduser-container {
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    background: rgb(212, 199, 199);
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.6);
+  }
+  
+  .adduser-back {
+    display: inline-flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .adduser-back:hover {
+    color: #007bff;
+  }
+  
+  .adduser-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .adduser-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .adduser-form label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .adduser-form input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .adduser-form input:focus {
+    border-color: #007bff;
+  }
+  
+  .adduser-submit {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  .adduser-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Small screen responsiveness */
+  @media (max-width: 600px) {
+    .adduser-container {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+  

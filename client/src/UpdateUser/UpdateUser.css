@@ -1,0 +1,66 @@
+/* UpdateUser.css file create karke ye CSS likh aur import kar lena */
+
+.updateuser-container {
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+  }
+  
+  .updateuser-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .updateuser-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .updateuser-form label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .updateuser-form input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .updateuser-form input:focus {
+    border-color: #007bff;
+  }
+  
+  .updateuser-submit {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  .updateuser-submit:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Responsive for small screens */
+  @media (max-width: 600px) {
+    .updateuser-container {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+  

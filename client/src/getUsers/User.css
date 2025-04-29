@@ -1,0 +1,76 @@
+.user-container {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .add-user-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .add-user-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* ✅ Cards Style */
+  .user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .user-card {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    font-size: 18px;
+  }
+  
+  .user-card p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .user-card strong {
+    color: #333;
+    margin-right: 5px;
+  }
+  
+  .card-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 12px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .edit-btn {
+    background-color: lightblue;
+    color: black;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+  }
+  

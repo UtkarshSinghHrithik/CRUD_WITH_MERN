@@ -28,6 +28,11 @@ console.log(error))
 
   app.use("/api" , route);
 
+  app.get("/", (req, res) => {
+    res.send("API working properly 🚀");
+    
+});
+
 
 
 
